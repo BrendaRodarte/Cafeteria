@@ -41,7 +41,7 @@ if( $(window).width() > 800 ) {
  $('#btn-menu').on('click', function(e){
     e.preventDefault();
     $('html, body').animate({
-        scrollTop:  $('#menu').offset().top
+        scrollTop:  $('#platillos').offset().top
     },500);
  });
 

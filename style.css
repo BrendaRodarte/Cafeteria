@@ -26,7 +26,6 @@ header {
     background-attachment: fixed;
     background-position: center 0;
     height: 500px; 
-   
 }
 header .contenedor {
     position: relative;
@@ -327,6 +326,13 @@ footer .copyright{
     main .galeria .foto {
         width: 100%; /* 1 columna */
         flex: 1 1 calc(100% - 10px);
+    }
+}
+@media screen and (max-width: 800px) {
+    header {
+        background-size: contain; /* Ajusta la imagen completa al contenedor */
+        background-position: center; /* Centra la imagen */
+        height: 320px; /* Ajusta la altura para pantallas más pequeñas */
     }
 }
 
